@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         // Intent 는 어떤 작업을 하려는 앱의 의도를 나타내고 매우 다양한 작업에 사용할 수 있다.
         // 이 과정에서 Intent 는 다른 활동을 시작한다.
 
-        EditText editText = findViewById(R.id.editText);
+        EditText editText = findViewById(R.id.editTextTextPersonName);
         String message = editText.getText().toString(); // editText 에 입력한 문자를 가져온다.
 
         // putExtra() 메서드는 EditText 값을 Intent 에 추가한다.
