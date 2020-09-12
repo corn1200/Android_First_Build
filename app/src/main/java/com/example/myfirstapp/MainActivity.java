@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-     유저가 send 버튼을 누를 때 호출 됨
+    // 유저가 send 버튼을 누를 때 호출 됨
     public void sendMessage(View view) {
         // Intent 생성자는 두 매개변수 Context 와 Class 를 사용한다.
         // 이 경우 시스템에서 intent 를 전달하는 앱 구성요소의 Class 매개변수는 시작할 활동이다.
