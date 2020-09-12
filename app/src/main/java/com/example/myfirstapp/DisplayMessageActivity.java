@@ -16,7 +16,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        //
+        // 레이아웃의 TextView 를 캡처하고 문자열을 텍스트로 설정한다.
         TextView textView = findViewById(R.id.textView);
+        textView.setText(message);
     }
 }
